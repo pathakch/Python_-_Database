@@ -15,4 +15,10 @@ cur.execute(query)
 result=cur.fetchall()
 print(result)
 
+conn.close()
+cur.close()
+del cur
+
+
+
 
